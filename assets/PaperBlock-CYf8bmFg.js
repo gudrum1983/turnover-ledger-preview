@@ -1,1 +1,0 @@
-import{d as o,c as t,r,z as c,i as l,o as n,_ as p}from"./index-BF7CLOo8.js";const _=o({__name:"PaperBlock",props:{variant:{default:"default"}},setup(a){const e=l(()=>[`PaperBlock_variant_${a.variant}`]);return(s,d)=>(n(),t("div",{class:c(["PaperBlock",e.value])},[r(s.$slots,"default",{},void 0,!0)],2))}}),u=p(_,[["__scopeId","data-v-1e96945c"]]);export{u as P};
