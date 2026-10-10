@@ -1,4 +1,4 @@
-import{d,c as p,p as g,i as s,o as a,_ as c,aA as u,b as l,q as m,w as h,g as f,u as C,G as v,r as _,j as b}from "./index-DK5ZCiCh.js";import{B as w}from "./AppFooter-DoveL2LQ.js";const y=`<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+import{d,c as p,p as g,i as s,o as a,_ as c,aA as u,b as l,q as m,w as h,g as f,u as C,G as v,r as _,j as b}from"./index-BF7CLOo8.js";import{B as w}from"./AppFooter-ZaqLjeet.js";const y=`<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#paint0_angular_928_31019_clip_path)" data-figma-skip-parse="true">
         <g transform="matrix(0.011 0 0 0.011 11 11)">
             <foreignObject x="-1090.91" y="-1090.91" width="2181.82" height="2181.82">
