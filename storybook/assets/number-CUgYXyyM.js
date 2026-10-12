@@ -1,0 +1,1 @@
+const a=(x,r)=>{const n=Number(x??0);if(!Number.isFinite(n))return"0px";if(!r)return`${n}px`;const{min:i,max:t}=r;if(i!==void 0&&t!==void 0&&i>t)return"0px";if(i!==void 0&&t!==void 0&&i===t)return`${i}px`;const o=i===void 0?n:Math.max(i,n);return`${t===void 0?o:Math.min(t,o)}px`};export{a as t};
