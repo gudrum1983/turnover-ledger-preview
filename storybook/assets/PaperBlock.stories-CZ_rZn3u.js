@@ -1,0 +1,22 @@
+import{g as c,d as l,e as m,s as p,i as u,o as f}from"./iframe-B-xi8IrK.js";import{_ as y}from"./_plugin-vue_export-helper-DlAUqK2U.js";import"./preload-helper-PPVm8Dsz.js";const r=c({__name:"PaperBlock",props:{variant:{default:"default"}},setup(s){const d=u(()=>[`PaperBlock_variant_${s.variant}`]);return(i,g)=>(f(),l("div",{class:p(["PaperBlock",d.value])},[m(i.$slots,"default",{},void 0,!0)],2))}}),o=y(r,[["__scopeId","data-v-4a06f629"]]);r.__docgenInfo=Object.assign({displayName:r.name??r.__name},{exportName:"default",displayName:"PaperBlock",type:1,props:[{name:"variant",global:!1,description:"Фон поверхности: default — белый, meta — градиент с рисунком, info — градиент",tags:[],required:!1,type:'"default" | "info" | "meta"',declarations:[],schema:{kind:"enum",type:'"default" | "info" | "meta"',schema:['"default"','"info"','"meta"']},default:'"default"'},{name:"key",global:!0,description:"",tags:[],required:!1,type:"PropertyKey | undefined",declarations:[],schema:{kind:"enum",type:"PropertyKey | undefined",schema:["undefined","string","number","symbol"]}},{name:"ref",global:!0,description:"",tags:[],required:!1,type:"VNodeRef | undefined",declarations:[],schema:{kind:"enum",type:"VNodeRef | undefined",schema:["undefined","string","Ref<any, any>",{kind:"event",type:"(ref: Element | ComponentPublicInstance<{}, {}, {}, {}, {}, {}, {}, {}, false, ComponentOptionsBase<any, any, any, any, any, any, any, any, any, {}, {}, string, {}, {}, {}, string, ComponentProvideOptions>, ... 4 more ..., any> | null, refs: Record<...>): void"}]}},{name:"ref_for",global:!0,description:"",tags:[],required:!1,type:"boolean | undefined",declarations:[],schema:{kind:"enum",type:"boolean | undefined",schema:["undefined","false","true"]}},{name:"ref_key",global:!0,description:"",tags:[],required:!1,type:"string | undefined",declarations:[],schema:{kind:"enum",type:"string | undefined",schema:["undefined","string"]}},{name:"class",global:!0,description:"",tags:[],required:!1,type:"unknown",declarations:[],schema:"unknown"},{name:"style",global:!0,description:"",tags:[],required:!1,type:"unknown",declarations:[],schema:"unknown"}],events:[],slots:[{name:"default",type:"{}",description:"",declarations:[],schema:{kind:"object",type:"{}"}}],exposed:[{name:"variant",type:'"default" | "info" | "meta"',description:"Фон поверхности: default — белый, meta — градиент с рисунком, info — градиент",declarations:[],schema:{kind:"enum",type:'"default" | "info" | "meta"',schema:['"default"','"info"','"meta"']}}],sourceFiles:"/home/ekaterina/projects/turnover-ledger/src/shared/ui-v2/paper-block/PaperBlock.vue"});const _={title:"UI-V2-Компоненты/PaperBlock",parameters:{docs:{description:{component:"Базовая поверхность для карточек и модальных контейнеров. Компонент задаёт фон, внутренние отступы, скругление и тень."}}},component:o,tags:["autodocs"],argTypes:{variant:{control:"select",options:["default","meta","info"]},default:{control:"text",description:"Содержимое поверхности",table:{type:{summary:"VNode"}}}},args:{variant:"default",default:"Контент внутри PaperBlock"},render:s=>({components:{PaperBlock:o},setup(){return{args:s}},template:`
+      <PaperBlock :variant="args.variant" style="max-width: 420px;">
+        <p class="u-typo-body-m">{{ args.default }}</p>
+      </PaperBlock>
+    `})},e={name:"Песочница"},a={name:"С контентом",args:{default:"Поверхность отделяет смысловой блок от фона страницы."}},n={name:"Градиент с рисунком",args:{variant:"meta"}},t={name:"Градиент",args:{variant:"info"}};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
+  name: 'Песочница'
+}`,...e.parameters?.docs?.source}}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  name: 'С контентом',
+  args: {
+    default: 'Поверхность отделяет смысловой блок от фона страницы.'
+  }
+}`,...a.parameters?.docs?.source}}};n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:`{
+  name: 'Градиент с рисунком',
+  args: {
+    variant: 'meta'
+  }
+}`,...n.parameters?.docs?.source}}};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`{
+  name: 'Градиент',
+  args: {
+    variant: 'info'
+  }
+}`,...t.parameters?.docs?.source}}};const b=["Playground","WithContent","MetaSurface","InfoSurface"];export{t as InfoSurface,n as MetaSurface,e as Playground,a as WithContent,b as __namedExportsOrder,_ as default};
