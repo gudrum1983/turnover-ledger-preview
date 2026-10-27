@@ -1,0 +1,1 @@
+import{d as o,c as t,r,n as c,i as n,o as l,_ as p}from"./index-Dz2UHiLo.js";const _=o({__name:"PaperBlock",props:{variant:{default:"default"}},setup(a){const e=n(()=>[`PaperBlock_variant_${a.variant}`]);return(s,d)=>(l(),t("div",{class:c(["PaperBlock",e.value])},[r(s.$slots,"default",{},void 0,!0)],2))}}),u=p(_,[["__scopeId","data-v-4a06f629"]]);export{u as P};
